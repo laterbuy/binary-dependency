@@ -1,0 +1,23 @@
+{
+  "name": "binary-dependency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laterbuy/binary-dependency.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laterbuy/binary-dependency/issues"
+  },
+  "homepage": "https://github.com/laterbuy/binary-dependency#readme",
+  "dependencies": {
+    "sqlite3": "^5.1.6",
+    "winax": "^3.3.7"
+  }
+}
