@@ -1,0 +1,29 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+env:
+  MY_SECRET: ${{ secrets.MY_SECRET }}
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16.19.1'
+
+    - name: Install dependencies
+      run: npm install node-gyp -g
+
+    - name: Install dependencies
+      run: npm install
+      
+    - name: C
