@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/laterbuy/binary-dependency#readme",
   "dependencies": {
-    "node-ffi": "^0.5.7",
+    "ffi": "^2.3.0",
     "ref-napi": "^3.0.3",
     "ref-struct-napi": "^1.1.1"
   }
