@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/laterbuy/binary-dependency#readme",
   "dependencies": {
-    "sqlite3": "^5.1.6",
-    "better-sqlite3": "8.4.0",
-    "winax": "^3.3.7"
+    "node-ffi": "^0.5.7",
+    "ref-napi": "^3.0.3",
+    "ref-struct-napi": "^1.1.1"
   }
 }
