@@ -19,6 +19,7 @@
   "dependencies": {
     "sqlite3": "^5.1.6",
     "better-sqlite3": "8.4.0",
-    "winax": "^3.3.7"
+    "winax": "^3.3.7",
+    "canvas": "2.11.2"
   }
 }
